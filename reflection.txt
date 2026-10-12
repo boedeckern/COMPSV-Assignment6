@@ -1,0 +1,12 @@
+Recursive insertion works by using the same method over and over, but on levels that are progressively deeper 
+into the tree. So the function is always working on just one level, but if the requisite identifiers are not 
+presently found, the method calls on another instance of itself to reference the next level down in the tree. 
+The main challenge that I faced when figuring out where to put a new employee was figuring out how to utilize 
+recursion properly. So, to summarize, my main problem in this assignment was figuring out how to properly and 
+most efficiently utilize recursion within the same function in order to achieve my goal of iterating through the 
+established binary tree of a company's organizational structure in order to insert new employee entries in their 
+specified positions within the established hierarchy. I definitely had a lot of help from the Rize resources. 
+Trees might be preferable to other data structures in real-world systems when those aforementioned systems are 
+more of a hierarchy instead of simply keeping track of names in a one-dimensional order, like I have used 
+previously in this course. This is particularly the case when the hierarchy begins to expand beyond just a 
+couple of levels, and even more so when those levels gradually accumulate more and more entries.
